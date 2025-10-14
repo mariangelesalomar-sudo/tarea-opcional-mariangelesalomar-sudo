@@ -1,0 +1,47 @@
+```         
+---
+Titulo: demo
+Autor: Mariángeles Alomar
+Fecha: `r format(Sys.Date(), '%d/%m/%Y')`
+Fromato: gfm
+Editor: visual
+---
+```
+
+## 
+
+# Exploración inicial del dataset
+
+El dataset mtcars incluye información sobre distintos modelos de automóviles: rendimiento (millas por galón), potencia, peso, número de cilindros, etc.
+
+A continuación mostramos su estructura y las primeras filas:
+
+## 
+
+```{r}
+# Ver estructura del dataset
+str(mtcars)
+```
+
+```{r}
+# Mostrar las primeras filas
+head(mtcars)
+```
+
+# Figura creada por R
+
+```{r}
+#| echo: false
+plot(mtcars$hp, mtcars$mpg,
+     main = "Relación entre potencia (hp) y rendimiento (mpg)",
+     xlab = "Caballos de fuerza (hp)",
+     ylab = "Millas por galón (mpg)",
+     col = "darkred",
+     pch = 19)
+```
+
+Como se ve, los autos con mas potencia tienden a tener menor rendimiento en el consumo
+
+# Figura importada desde URL
+
+![Auto eléctrico representando eficiencia energética](https://www.motorterra.com/wp-content/uploads/2022/07/2024-Chevrolet-Equinox-EV-004-1-820x394.jpg)
