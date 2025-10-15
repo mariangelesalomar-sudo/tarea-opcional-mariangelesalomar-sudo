@@ -45,3 +45,30 @@ Como se ve, los autos con mas potencia tienden a tener menor rendimiento en el c
 # Figura importada desde URL
 
 ![Auto eléctrico representando eficiencia energética](https://www.motorterra.com/wp-content/uploads/2022/07/2024-Chevrolet-Equinox-EV-004-1-820x394.jpg)
+
+# Tablas de resumen
+
+En esta sección se muestran dos ejemplos de tablas: una escrita manualmente con sintaxis Markdown y otra generada automáticamente con código de R.
+
+## 1) Tabla escrita con Markdown
+
+| Variable | Descripción                            | Ejemplo de valor |
+|----------|----------------------------------------|------------------|
+| mpg      | Millas por galón (rendimiento)         | 21.0             |
+| hp       | Caballos de fuerza del motor           | 110              |
+| wt       | Peso del vehículo (en miles de libras) | 2.62             |
+| cyl      | Número de cilindros                    | 6                |
+
+Esta tabla se escribió directamente usando sintaxis Markdown.
+
+------------------------------------------------------------------------
+
+## 2) Tabla generada con código de R
+
+El siguiente bloque de código muestra las primeras filas del dataset `mtcars`.\
+
+```{r}
+# Mostrar las primeras 5 filas del dataset 
+head(mtcars, 5)
+
+```
