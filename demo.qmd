@@ -72,3 +72,35 @@ El siguiente bloque de código muestra las primeras filas del dataset `mtcars`.\
 head(mtcars, 5)
 
 ```
+
+# Exploración descriptiva con texto Markdown
+
+En esta sección se muestran ejemplos de *texto con formato*, **negritas**, *cursivas*, y una lista simple.
+
+El conjunto de datos `mtcars` contiene información sobre distintos **modelos de automóviles** y variables que describen su rendimiento.\
+Podemos destacar algunas variables importantes:
+
+-   **mpg** (*miles per gallon*): mide el rendimiento del vehículo.\
+-   **hp** (*horsepower*): indica la potencia del motor.\
+-   **wt** (*weight*): representa el peso del automóvil (en miles de libras).\
+-   **cyl** (*cylinders*): número de cilindros del motor.
+
+A continuación, se resumen algunos pasos del análisis que realizamos:
+
+1.  Cargar el dataset `mtcars` en R.\
+2.  Explorar su estructura con `str(mtcars)`.\
+3.  Visualizar relaciones entre variables con gráficos.\
+4.  Documentar los resultados en este informe reproducible con **Quarto** y **Markdown**.
+
+------------------------------------------------------------------------
+
+## Ejemplo de escritura matemática
+
+Una relación simple entre potencia (`hp`) y rendimiento (`mpg`) puede expresarse como:
+
+$$
+\text{Eficiencia} = \frac{\text{mpg}}{\text{hp}}
+$$
+
+donde una mayor potencia generalmente implica una menor eficiencia.\
+\

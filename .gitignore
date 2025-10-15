@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Quarto HTML artifacts
+*.html
+demo_files/
